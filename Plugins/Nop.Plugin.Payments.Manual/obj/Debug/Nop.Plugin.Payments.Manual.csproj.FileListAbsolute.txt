@@ -1,0 +1,12 @@
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\Views\PaymentManual\Configure.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\Views\PaymentManual\PaymentInfo.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\Description.txt
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\web.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\logo.jpg
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\Nop.Plugin.Payments.Manual.dll.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\Nop.Plugin.Payments.Manual.dll
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.Manual\Nop.Plugin.Payments.Manual.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.csproj.App.config
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.csprojResolveAssemblyReference.cache
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.dll
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.pdb

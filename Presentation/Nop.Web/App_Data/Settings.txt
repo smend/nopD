@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=DESKTOP-C78UGU3\SQLEXPRESS;Initial Catalog=disc;Integrated Security=True;Persist Security Info=False
