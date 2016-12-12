@@ -1,0 +1,11 @@
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Tax.FixedRate\Description.txt
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Tax.FixedRate\web.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Tax.FixedRate\Views\TaxFixedRate\Configure.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Tax.FixedRate\logo.jpg
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csproj.App.config
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.dll
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csprojResolveAssemblyReference.cache

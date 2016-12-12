@@ -1,0 +1,12 @@
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Views\PaymentCheckMoneyOrder\Configure.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Views\PaymentCheckMoneyOrder\PaymentInfo.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\web.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Description.txt
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\logo.jpg
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.Plugin.Payments.CheckMoneyOrder.dll.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.Plugin.Payments.CheckMoneyOrder.dll
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.Plugin.Payments.CheckMoneyOrder.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csproj.App.config
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.dll
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csprojResolveAssemblyReference.cache

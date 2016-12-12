@@ -1,0 +1,13 @@
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Description.txt
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Configure.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Create.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Edit.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\_CreateOrUpdate.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\web.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\logo.png
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.csprojResolveAssemblyReference.cache
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.dll
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.pdb

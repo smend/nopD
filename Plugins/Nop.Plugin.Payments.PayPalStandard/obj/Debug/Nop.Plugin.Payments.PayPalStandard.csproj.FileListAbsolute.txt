@@ -1,0 +1,12 @@
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentPayPalStandard\Configure.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentPayPalStandard\PaymentInfo.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\web.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Description.txt
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\logo.jpg
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csproj.App.config
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csprojResolveAssemblyReference.cache

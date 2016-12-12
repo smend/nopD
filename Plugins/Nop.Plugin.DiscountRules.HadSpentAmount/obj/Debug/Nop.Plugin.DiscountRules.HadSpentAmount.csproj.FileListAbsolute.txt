@@ -1,0 +1,11 @@
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csproj.App.config
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb

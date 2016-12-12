@@ -1,0 +1,14 @@
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\Configure.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\EditPopup.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\_CreateOrUpdate.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\AddPopup.cshtml
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\web.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Description.txt
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\logo.jpg
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll.config
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll
+C:\Users\bizi\nop\nop1\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csproj.App.config
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.dll
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.pdb
+C:\Users\bizi\nop\nop1\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csprojResolveAssemblyReference.cache
