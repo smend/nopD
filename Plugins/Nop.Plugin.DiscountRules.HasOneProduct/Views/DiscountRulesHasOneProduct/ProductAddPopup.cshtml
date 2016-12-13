@@ -21,7 +21,6 @@
             &nbsp;
         </div>
     </div>
-    
 
     <div class="content">
         <div class="form-horizontal">
@@ -130,15 +129,14 @@
                                         mode: "inline"
                                     },
                                     scrollable: false,
-                                    columns: [
-                                    {
+                                    columns: [{
                                         field: "Id",
                                         headerTemplate: "<input id='mastercheckbox' type='checkbox'/>",
                                         headerAttributes: { style: "text-align:center" },
                                         template: "<input type='checkbox' name='SelectedProductIds' value='#=Id#' class='checkboxGroups' />",
                                         attributes: { style: "text-align:center" },
-                                        width: 50,
-                                        }, {
+                                        width: 50
+                                     }, {
                                         field: "Name",
                                         title: "@T("Admin.Catalog.Products.Fields.Name")"
                                     }, {
@@ -159,76 +157,89 @@
         </div>
     </div>
 
-    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#search-products').click(function () {
+                var grid = $('#products-grid').data('kendoGrid');
+                grid.dataSource.page(1); //new search. Set page size to 1
+                //grid.dataSource.read(); we already loaded the grid above using "page" function
+                $('.checkboxGroups').attr('checked', false).change();
+                return false;
+            });
+            //wire up checkboxes
+            $('#mastercheckbox').click(function() {
+                $('.checkboxGroups').attr('checked', $(this).is(':checked')).change();
+            });
+
+            $('#products-grid').on('change', 'input[type=checkbox][id!=mastercheckbox]', function(e) {
+                updateMasterCheckbox();
+            });
+        });
+
+        $("#@Html.FieldIdFor(model => model.SearchProductName)").keydown(function (event) {
+            if (event.keyCode == 13) {
+                $("#search-products").click();
+                return false;
+            }
+        });
+
+        function additionalData() {
+            var data = {
+                SearchProductName: $('#@Html.FieldIdFor(model => model.SearchProductName)').val(),
+                SearchCategoryId: $('#SearchCategoryId').val(),
+                SearchManufacturerId: $('#SearchManufacturerId').val(),
+                SearchStoreId: $('#SearchStoreId').val(),
+                SearchVendorId: $('#SearchVendorId').val(),
+                SearchProductTypeId: $('#SearchProductTypeId').val()
+            };
+            addAntiForgeryToken(data);
+            return data;
+        }
+
+        function updateMasterCheckbox() {
+            var numChkBoxes = $('#products-grid input[type=checkbox][id!=mastercheckbox]').length;
+            var numChkBoxesChecked = $('#products-grid input[type=checkbox][id!=mastercheckbox]:checked').length;
+            $('#mastercheckbox').attr('checked', numChkBoxes == numChkBoxesChecked && numChkBoxes > 0);
+        }
+
+
+        function selectRequiredProduct(productid) {
+            try {
+                var checks = document.getElementsByClassName("checkboxGroups");
+
+                var arr=""
+                for(i = 0; i < checks.length; i++)
+                {
+
+                    if(checks[i].checked==true)
+                       arr= arr+checks[i].value+"," ;
+
+              }
+
+
+                 var currentValue = window.opener.document.getElementById('@(ViewBag.productIdsInput)').value;
+                if (currentValue) {
+                    //add comma
+                    window.opener.document.getElementById('@(ViewBag.productIdsInput)').value += ', ';
+                }
+
+                    window.opener.document.getElementById('@(ViewBag.productIdsInput)').value += arr;
+                    window.opener.document.getElementById('@(ViewBag.btnId)').click();
+
+
+            }
+
+            catch (e){}
+
+
+                //window.close();
+
+        }
+    </script>
+    <div class="panel-footer">
+        <button type="submit" name="save" class="btn bg-blue" onclick="selectRequiredProduct()">
+            <i class="fa fa-floppy-o"></i>
+            @T("Admin.Common.Save")XXX4
+        </button>
+    </div>
 }
-<script type="text/javascript">
-                            $(document).ready(function() {
-                                $('#search-products').click(function() {
-                                    var grid = $('#products-grid').data('kendoGrid');
-                                    grid.dataSource.page(1); //new search. Set page size to 1
-                                    //grid.dataSource.read(); we already loaded the grid above using "page" function
-                                    //clear selected checkboxes
-                                    $('.checkboxGroups').attr('checked', false).change();
-                                    return false;
-                                });
-
-                                $("#@Html.FieldIdFor(model => model.SearchProductName)").keydown(function(event) {
-                                    if (event.keyCode == 13) {
-                                        $("#search-products").click();
-                                        return false;
-                                    }
-                                });
-
-                                //wire up checkboxes
-                                $('#mastercheckbox').click(function() {
-                                    $('.checkboxGroups').attr('checked', $(this).is(':checked')).change();
-                                });
-
-                                $('#products-grid').on('change', 'input[type=checkbox][id!=mastercheckbox]', function(e) {
-                                    updateMasterCheckbox();
-                                });
-                            });
-
-                            function additionalData() {
-                                var data = {
-                                    SearchProductName: $('#@Html.FieldIdFor(model => model.SearchProductName)').val(),
-                                    SearchCategoryId: $('#SearchCategoryId').val(),
-                                    SearchManufacturerId: $('#SearchManufacturerId').val(),
-                                    SearchStoreId: $('#SearchStoreId').val(),
-                                    SearchVendorId: $('#SearchVendorId').val(),
-                                    SearchProductTypeId: $('#SearchProductTypeId').val()
-                                };
-                                addAntiForgeryToken(data);
-                                return data;
-                            }
-
-                            function updateMasterCheckbox() {
-                                var numChkBoxes = $('#products-grid input[type=checkbox][id!=mastercheckbox]').length;
-                                var numChkBoxesChecked = $('#products-grid input[type=checkbox][id!=mastercheckbox]:checked').length;
-                                $('#mastercheckbox').attr('checked', numChkBoxes == numChkBoxesChecked && numChkBoxes > 0);
-                            }
-                            function selectRequiredProduct(productid) {
-                                try {
-                                    var checks = document.getElementsByClassName("checkboxGroups");
-                                    for(c in checks){
-                                        if(c.checked=true){
-                                            var currentValue = window.opener.document.getElementById('@(ViewBag.productIdsInput)').value;
-                                            if (currentValue) {
-                                                //add comma
-                                                window.opener.document.getElementById('@(ViewBag.productIdsInput)').value += ', ';
-                                            }
-                                            window.opener.document.getElementById('@(ViewBag.productIdsInput)').value += c.value.;
-                                            window.opener.document.getElementById('@(ViewBag.btnId)').click();
-                                        }
-                                    }
-                                }
-                                catch (e){}
-                                window.close();
-                            }
-</script>
-<div class="panel-footer">
-    <button type="submit" name="save" class="btn bg-blue" onclick="selectRequiredProduct()">
-        <i class="fa fa-floppy-o"></i>
-        @T("Admin.Common.Save")
-    </button>
-</div>
